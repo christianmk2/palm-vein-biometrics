@@ -1,0 +1,22 @@
+# Core
+numpy
+pillow
+matplotlib
+
+# Computer vision
+opencv-python
+
+# Machine learning
+tensorflow>=2.10
+scikit-learn
+
+# Database
+mysql-connector-python
+
+# --- Raspberry Pi only (install these on-device, not on a dev machine) ---
+# adafruit-blinka
+# adafruit-circuitpython-mlx90614
+
+# Note: these are starting-point versions, not pinned to what the original
+# 2022 code was tested against (that environment is long gone). Test on
+# your target machine/Pi and pin exact versions once it's working.
